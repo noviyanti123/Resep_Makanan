@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-image: url(Foto/background\ resep.jpg);
+}
+
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+
+.logo {
+float: left;
+  margin-left: 46px;
+  padding: 0px 38px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo a {
+text-decoration: none;
+  color: #f06a16; 
+  font-size: 20px;
+}
+
+.logo p {
+margin: 0;
+}
+
+.nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.nav ul li {
+display: inline-block;
+margin-left: 20px;
+}
+
+.nav ul li:hover {
+  border-bottom:3px solid #000000; 
+  transition:all .3s ease; 
+}
+
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav ul li:hover {
+    border-bottom:3px solid #000000; 
+    transition:all .3s ease; 
+}
+
+img {
+    max-width:20%; 
+}
+
+h2, h3,h4,h5 {
+    margin-top:20px; 
+}
+
+ul {
+    margin-top:50px; 
+}
